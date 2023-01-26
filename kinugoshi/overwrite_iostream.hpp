@@ -1,19 +1,19 @@
 #include <iostream>
-#include <vector>
 #include <utility>
+#include <vector>
 namespace std {
-//pair
-template <typename T,typename U>
-ostream &operator<<(ostream &os, const pair<T,U> &v) {
+// pair
+template <typename T, typename U>
+ostream &operator<<(ostream &os, const pair<T, U> &v) {
     os << v.first << " " << v.second;
     return os;
 }
-template <typename T,typename U>
-istream &operator>>(istream &is, pair<T,U> &v) {
+template <typename T, typename U>
+istream &operator>>(istream &is, pair<T, U> &v) {
     is >> v.first >> v.second;
     return is;
 }
-//vector
+// vector
 template <typename T>
 ostream &operator<<(ostream &os, const vector<T> &v) {
     for (int i = 0; i < (int)v.size(); i++) {

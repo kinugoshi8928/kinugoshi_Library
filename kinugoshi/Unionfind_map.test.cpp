@@ -1,5 +1,6 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/unionfind"
 #include "kinugoshi/Unionfind_map.hpp"
+
 #include <bits/stdc++.h>
 using namespace std;
 using namespace kinugoshi;
