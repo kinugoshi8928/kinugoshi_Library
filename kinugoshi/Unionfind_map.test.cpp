@@ -1,9 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/unionfind"
 #include "kinugoshi/Unionfind_map.hpp"
 #include <bits/stdc++.h>
-#include <atcoder/all>
 using namespace std;
-using namespace atcoder;
 using namespace kinugoshi;
 using ll = long long;
 using mint = modint998244353;
