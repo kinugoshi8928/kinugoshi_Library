@@ -7,8 +7,6 @@ namespace kinugoshi {
 
 template <class UF_MAP>
 struct Unionfind_map {
-    // map版UF
-    // 初期化 Unionfind_map<string> tree; など
     UF_MAP leader(UF_MAP x) {
         if (par[x] == x) return x;
         else return par[x] = leader(par[x]);
