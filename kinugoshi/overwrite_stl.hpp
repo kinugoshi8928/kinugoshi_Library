@@ -17,7 +17,7 @@ istream &operator>>(istream &is, pair<T, U> &v) {
 template <typename T>
 ostream &operator<<(ostream &os, const vector<T> &v) {
     for (int i = 0; i < (int)v.size(); i++) {
-        os << v[i] << (i != (int)v.size() - 1 ? " " : "");
+        os << v[i] << (i != (int)v.size() - 1 ? " " : "\n");
     }
     return os;
 }
