@@ -1,5 +1,5 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/many_aplusb"
-#include "kinugoshi/overwrite/overwrite_io"
+#include "kinugoshi/overwrite/overwrite_io.hpp"
 
 #include <bits/stdc++.h>
 using namespace std;
