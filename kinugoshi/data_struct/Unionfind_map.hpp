@@ -1,4 +1,3 @@
-#pragma once
 #ifndef kinugoshi_UF_MAP
 #define kinugoshi_UF_MAP
 #include <map>
